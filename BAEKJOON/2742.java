@@ -22,9 +22,16 @@ public class Main {
 		int n = Integer.parseInt(br.readLine());
 		br.close();
 		
+		/*
 		for(int i=n ; i>0 ;i--)
 		{
 			System.out.println(i);
+		}
+		*/
+		while (n>0)
+		{
+			System.out.println(n);
+			n--;
 		}
 
 	}
